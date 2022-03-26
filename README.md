@@ -8,7 +8,7 @@ Image processing API, uses query parameters to serve resize images.
 
 | Parameters |                             |          |
 | ---------- | --------------------------- | -------- |
-| filename   | any image name listed below | required |
+| name   | any image name listed below | required |
 | width      | set any image width         | optional |
 | height     | set any image height        | optional |
 
@@ -22,7 +22,7 @@ Image processing API, uses query parameters to serve resize images.
 4. Build application `npm run build`
 5. Start server `node build/app.js`
 6. Use `http://localhost:3000/`
-7. Use To Resize `http://localhost:3000/images?img1&width=400&height=500`
+7. Use To Resize http://localhost:3000/images/?name=img2&width=1000&height=1100`
 
 ## Available Script:
 
