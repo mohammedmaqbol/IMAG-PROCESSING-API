@@ -32,9 +32,6 @@ const resize = async (
                               'Make Sure Width And Height Bigger than Zero...⚠️'
                         );
             }
-            /*if (Object.keys(req.query).length === 0) {
-            return res.status(200).send('Make sure width and height is exist.');
-        }*/
             if (fileExists(path.resolve('/') + result)) {
                   return res.status(200).sendFile(path.resolve('/') + result);
             } else {
