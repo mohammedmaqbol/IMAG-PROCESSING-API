@@ -4,7 +4,7 @@ const resizeIMG = async (
       result: string,
       width: number,
       height: number
-): Promise<void> => {
+): Promise<any> => {
       await sharp(img).resize(Number(width), Number(height)).toFile(result);
 };
 export default resizeIMG;

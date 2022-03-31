@@ -1,6 +1,6 @@
 import { existsSync } from 'fs';
 
-const fileExist = (img: string): boolean => {
+const fileExist = (img: string): any => {
       return existsSync(img);
 };
 
